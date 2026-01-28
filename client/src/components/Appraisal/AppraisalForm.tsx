@@ -9,7 +9,6 @@ export const AppraisalForm: React.FC = () => {
   const [selfReview, setSelfReview] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-  const { user } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {

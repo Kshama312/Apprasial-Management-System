@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { Button } from '../Shared/Button';
-import { Input } from '../Shared/Input';
 import { Card } from '../Shared/Card';
 import { RegisterData, Role } from '../../types';
 import { toast } from 'react-toastify';

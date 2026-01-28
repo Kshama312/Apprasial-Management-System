@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card } from '../Shared/Card';
 
 interface DashboardLayoutProps {
   title: string;
