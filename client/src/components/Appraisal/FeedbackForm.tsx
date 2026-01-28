@@ -8,7 +8,6 @@ import { toast } from 'react-toastify'; // ✅ Import toast
 
 export const FeedbackForm: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const { user } = useAuth();
   const navigate = useNavigate();
   const [comment, setComment] = useState('');
   const [rating, setRating] = useState<number>(5);
